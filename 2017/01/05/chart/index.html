@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--
+***************  *      *     *
+      8          *    *       *
+      8          *  *         *
+      8          **           *
+      8          *  *         *
+      8          *    *       *
+      8          *      *     *
+      8          *        *   ***********    -----Theme By Kieran(http://go.kieran.top)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+  <title>非常好用的图形报表工具 | hellen的博客</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="hellen的博客">
+    <meta name="author" content="hellen宁">
+    <meta name="description" content="web前端、前端学习、前端开发、JS、HTML、CSS、HTML5、CSS3、全栈、node.js、Angular.js、前端模块化、前端工程化" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.ejs" title="hellen的博客" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
+    
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
+    
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
+
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+  
+  
+  
+
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+</head>
+
+<!--
+<body class="post-template">
+-->
+<body id="index" class="lightnav animsition">
+
+      <!-- ============================ Off-canvas navigation =========================== -->
+
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="http://www.vyanke.com/" target="_BLANK" class="animsition-link">V研客</a></li>
+                    
+                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">null</a></li>
+                    
+                </ul>
+            </li>
+            
+            
+        	<li>
+        		<a class="sb-toggle-submenu">Categories<span class="sb-caret"></span></a>
+            	<ul class="sb-submenu">
+				  	
+				    <li><a href="/categories/hexo/" class="animsition-link">hexo<small>(1)</small></a></li>
+				    
+				    <li><a href="/categories/html扩展/" class="animsition-link">html扩展<small>(1)</small></a></li>
+				    
+				</ul>
+        	</li>
+			
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a href="http://www.ruanyifeng.com/blog/archives.html" class="animsition-link">阮一峰</a></li>
+                    
+                    <li><a href="http://www.liaoxuefeng.com/" class="animsition-link">廖雪峰</a></li>
+                    
+                    <li><a href="https://segmentfault.com/" class="animsition-link">segmentfault</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
+    </div>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
+
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
+
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/logo.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">hellen的博客</a></li>
+                            <li class="nolink"><span>Always </span>Creative.</li>
+                            
+                            <li><a href="https://github.com/hellenhellen" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            
+                            
+                            <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
+                            
+                            
+                            <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
+            </div>
+            <!-- // .navbar-inner -->
+        </div>
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2017-01-05T05:01:46.000Z" itemprop="datePublished">
+          2017-01-05
+      </time>
+    
+</span>
+                <h1>非常好用的图形报表工具</h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<h2 id="非常好用的图形报表工具"><a href="#非常好用的图形报表工具" class="headerlink" title="非常好用的图形报表工具"></a>非常好用的图形报表工具</h2><blockquote>
+<p>1 highcharts     <a href="http://www.highcharts.com/" target="_blank" rel="external">http://www.highcharts.com/</a></p>
+<ul>
+<li>Highcharts 是一个用纯JavaScript编写的一个图表库， 能够很简单便捷的在web网站或是web应用程序添加有交互性的图表，并且免费提供给个人学习、个人网站和非商业用途使用。HighCharts支持的图表类型有曲线图、区域图、柱状图、饼状图、散状点图和综合图表。</li>
+</ul>
+<p>2 jscharts   <a href="http://www.jscharts.com/" target="_blank" rel="external">http://www.jscharts.com/</a></p>
+<ul>
+<li>JS Chart是需要一些简 单或无需手工书写编码的基于Javascript的免费图表生成器。使用JS Chart可以很简单很容易的完成你的生成图表任务，因为你只需要使用客户端脚本(即浏览器端)，无需多余的插件或服务器端模块。你只需要准备好JS Chart脚本、包含图表数据的XML或Javascript数组。</li>
+</ul>
+<p>3 fusioncharts          <a href="http://www.fusioncharts.com/" target="_blank" rel="external">http://www.fusioncharts.com/</a></p>
+<ul>
+<li>FusionCharts是一个Flash的图表组件，它可以用来制作数据动画图表，其中动画效果用的是Adobe Flash 8 （原Macromedia Flash的）制作的flash ， FusionCharts可用于任何网页的脚本语言类似于HTML ， .NET，ASP ， JSP， PHP ， ColdFusion等，提供互动性和强大的图表。使用XML作为其数据接口， FusionCharts充分利用流体美丽的Flash创建紧凑，互动性和视觉逮捕图表。</li>
+</ul>
+<p>4 flot   <a href="http://www.flotcharts.org/" target="_blank" rel="external">http://www.flotcharts.org/</a></p>
+<ul>
+<li>Flot是基于 jQuery框架绘制图表的纯JavaScript框架。它可在客户端即时绘制并生成各种图形。重要的是它使用简便(还有很多可选的设置)、吸引人的视觉 效果和交互功能，如图表缩放和鼠标跟踪等。该javascript框架适用于我们所熟知的 Internet Explorer 6/7/8, Firefox 2.x+, Safari 3.0+, Opera 9.5+ and Konqueror 4.x+浏览器。</li>
+</ul>
+<p>5 ProtoChart    <a href="https://code.google.com/p/protochart/" target="_blank" rel="external">https://code.google.com/p/protochart/</a></p>
+<ul>
+<li>ProtoChart是一个采用Prototype和Canvas开发的图表制作开源javascript工具包。当前支持的图表类型包括：Line、bar、pie、curve、mix和area charts.</li>
+</ul>
+<p>6 EJSChart   <a href="http://www.ejschart.com/" target="_blank" rel="external">http://www.ejschart.com/</a></p>
+<ul>
+<li>EJSChart支持鼠标跟踪、鼠标事件、键盘跟踪和事件、缩放、滚动、十字线增加交互感并为网页图表的用户体验提升了一个档次。您可以选择多种图表类型：线、面、分散数据、饼和函数级数。图表的每个细节都可以自定制。</li>
+</ul>
+<p>7 ECharts <a href="http://echarts.baidu.com/" target="_blank" rel="external">http://echarts.baidu.com/</a></p>
+<ul>
+<li>基于Canvas，纯Javascript图表库，提供直观，生动，可交互，可个性化定制的数据可视化图表。创新的拖拽重计算、数据视图、值域漫游等特性大大增强了用户体验，赋予了用户对数据进行挖掘、整合的能力。</li>
+</ul>
+<p>8 PlotKit  <a href="http://www.liquidx.NET/plotkit/" target="_blank" rel="external">http://www.liquidx.NET/plotkit/</a></p>
+<ul>
+<li>PlotKit是一款绘制图表图形的Javascript框架。它支持HTML Canvas、基于Adobe SVG Viewer的SVG和本地浏览器。</li>
+</ul>
+<p>9 Open Flash Chart   <a href="http://teethgrinder.co.uk/open-flash-chart-2/" target="_blank" rel="external">http://teethgrinder.co.uk/open-flash-chart-2/</a></p>
+<ul>
+<li>OpenFlashChart是一款开源的以Flash和Javascript为技术基础的免费图表，用它能创建一些很有效果的报表分析图表。</li>
+</ul>
+<p>10 Flotr2   <a href="http://www.humblesoftware.com/flotr2/" target="_blank" rel="external">http://www.humblesoftware.com/flotr2/</a></p>
+<ul>
+<li>Flotr2 是个独立框架库，支持HTML5图表和图形。它是 flotr 的一个分支版本，移除了 Prototype 依赖性，并且有很多改进。支持：线图、条图、蜡状图、饼图、气泡图。诸如 IE6 类的老浏览器也支持。</li>
+</ul>
+<p>11 Rickshaw  <a href="http://code.shutterstock.com/rickshaw/" target="_blank" rel="external">http://code.shutterstock.com/rickshaw/</a></p>
+<ul>
+<li>Rickshaw 是个用于创建交互式时序图的JS工具。它依赖 D3 可视化库和其他一些 jQuery 和 jQuery UI 的插件。</li>
+</ul>
+<p>12 D3   <a href="http://d3js.org/" target="_blank" rel="external">http://d3js.org/</a></p>
+<ul>
+<li>D3 是最流行的可视化库之一，它被很多其他的表格插件所使用。它允许绑定任意数据到DOM，然后将数据驱动转换应用到Document中。你可以使用它用一个数组创建基本的HMTL表格，或是利用它的流体过度和交互，用相似的数据创建惊人的SVG条形图.</li>
+</ul>
+<p>13 Awesome Chart JS   <a href="http://cyberpython.github.io/AwesomeChartJS/" target="_blank" rel="external">http://cyberpython.github.io/AwesomeChartJS/</a></p>
+<ul>
+<li>Awesome Chart JS 是一个Javascript生成图表的类库，它利用了 Html5 的 canvas 标签来创建统计图表。此类库就是为了减轻开发者的工作量，使用它只需书写几行代码便能生成漂亮的图表。</li>
+</ul>
+<p>14 gRaphael  <a href="http://g.raphaeljs.com/" target="_blank" rel="external">http://g.raphaeljs.com/</a></p>
+<ul>
+<li>gRaphael能够为你的网站创建漂亮的表格，它基于Raphael图形库。它支持Firefox 3.0+, Safari 3.0+, Opera 9.5+ and IE 6.0+.</li>
+</ul>
+<p>15 jqPlot  <a href="http://www.jqplot.com/" target="_blank" rel="external">http://www.jqplot.com/</a></p>
+<ul>
+<li>jqPlot是一个jQuery绘图插件，可以利用它制作漂亮的线状图和柱状图。jqPlot支持为图表设置各种不同的样式。提供Tooltips，数据点高亮显示等功能。</li>
+</ul>
+<p>16 RGraph  <a href="http://www.rgraph.net/" target="_blank" rel="external">http://www.rgraph.net/</a></p>
+<ul>
+<li>RGraph是基于HTML5 canvas标签的HTML5 canvas图形库。</li>
+</ul>
+<p>17 dygraphs   <a href="http://dygraphs.com/" target="_blank" rel="external">http://dygraphs.com/</a></p>
+<ul>
+<li>dygraphs 是一个开源的Javascript库，它可以产生一个可交互式的，可缩放的的曲线表。其可以用来显示大密度的数据集（比如股票，气温，等等），并且可以让 用户来浏览和解释这个曲线图。在它的主页，你可以看到一些示例和用法。</li>
+</ul>
+<p>18 CanvasXpress   <a href="http://www.canvasxpress.org/" target="_blank" rel="external">http://www.canvasxpress.org/</a></p>
+<ul>
+<li>CanvasXpress是一个基于HTML5 canvas标签实现的JavaScript图表类库，它能够支持线性图、柱形图、饼图和热点图等多种常见的图表类型。它所生成的图表交互性很强，鼠标放 上去时会动态显示值。除此之外，它也具有相当高的可定制性，可设置图表的文字、颜色和要显示/隐藏的元素等。</li>
+</ul>
+<p>19 gchart  <a href="http://www.cnblogs.com/JustinYoung/archive/2010/01/18/gchart-google-chart-api-01.html" target="_blank" rel="external">http://www.cnblogs.com/JustinYoung/archive/2010/01/18/gchart-google-chart-api-01.html</a></p>
+<ul>
+<li>google图表API是google提供的一个可以生成各种图表的api接口。根据各种您的需求，Google 图表 API 会返回一幅 PNG 格式的图片来响应一个网址。Google 图表 API 可以生成多种类型的图片，包括折线图、条形图和饼图。您可以为每种图片类型指定属性，例如大小、颜色和标签。</li>
+</ul>
+</blockquote>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <nav class="pagination" role="pagination">
+    
+    <a class="pull-left" href="/2017/01/06/HTML application/" style="float: left;">
+        ← HTML application
+    </a>
+    
+    
+    <a class="pull-right" href="/2016/12/14/angular/">
+        angular2 →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+
+
+</div>
+    </div>
+</section>
+
+
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By hellen宁. All Rights Reserved.
+                </p>
+                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/hellenhellen" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    
+                    
+                    <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/jquery.flexslider-min.js"></script><!-- Flexslider plugin -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+<!-- Initiate flexslider plugin -->
+<script type="text/javascript">
+    $(document).ready(function($) {
+      (function(){
+        console.log('font');
+        var getCss = function(path) {
+          var head = document.getElementsByTagName('head')[0];
+          link = document.createElement('link');
+          link.href = path;
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          head.appendChild(link);
+        };
+        getCss('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+        getCss('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+      })();
+      $('.flexslider').flexslider({
+        animation: "fade",
+        prevText: "",
+        nextText: "",
+        directionNav: true
+      });
+    });
+</script>
+
+</body>
+</html>
